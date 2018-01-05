@@ -20,7 +20,7 @@ public class Printer implements Actor{
 	public Printer(Receiver receiver, String peer) {
 		this.receiver = receiver;
 		this.peer = peer;
-		user = new User(null, null, null);
+		user = new User(null, null, null, null);
 	}
 	
 	@Override

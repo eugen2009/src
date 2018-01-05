@@ -74,10 +74,9 @@ public class User {
 	public static User getUser(String name) {
 		User user = new User(null, null, null, null);
 		synchronized(name) {
+			
 			return user;
 		}
-		
-		// user wird zurückgegeben
 	}
 	
 	public String toString() {
